@@ -1,10 +1,8 @@
-﻿# The script of the game goes in this file.
+# The script of the game goes in this file.
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define B = Character("Bryer")
-define M = Character("Malcolm")
 # The game starts here.
 
 label start:
@@ -19,32 +17,34 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show malangry with dissolve
+    show mal angry at left
+        
+    with dissolve
 
     # These display lines of dialogue.
 
-    M "You."
+    Mal "You."
 
-    hide malangry
-    show brysad with vpunch
+    show bry sad at right
 
-    B "WHAT?"
 
-    hide brysad
-    show malangry with dissolve
+    with vpunch
 
-    M "I think you are a f-"
+    Bry "WHAT?"
 
-    hide malangry
-    show brysadawkward
+    show mal angry 
 
-    B "..."
+    Mal "I think you are a f-"
 
-    hide brysadawkward
-    show bryserious
+    show bry sadawkward
 
-    B "I hate you."
+    Bry "..."
+
+    show bry serious
+
+    Mal "I hate you."
     $ persistent.main_menuimage = 3
     # This ends the game.
 
     return
+
