@@ -1,0 +1,46 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+NameError: name 'bry_sadawkward' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "game/script.rpy", line 33, in script
+    bry_sadawkward "WHAT?"
+Exception: Sayer 'bry_sadawkward' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Traceback (most recent call last):
+  File "renpy/ast.py", line 625, in eval_who
+    return renpy.python.py_eval(who)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "renpy/python.py", line 1305, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/python.py", line 1298, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<none>", line 1, in <module>
+NameError: name 'bry_sadawkward' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "game/script.rpy", line 33, in script
+    bry_sadawkward "WHAT?"
+  File "renpy/ast.py", line 2923, in execute
+    Say.execute(self)
+    ~~~~~~~~~~~^^^^^^
+  File "renpy/ast.py", line 956, in execute
+    who = eval_who(self.who, self.who_fast)
+          ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/ast.py", line 627, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'bry_sadawkward' is not defined.
+
+Windows-10-10.0.19045-SP0 AMD64
+Ren'Py 8.5.0.25111603
+Project Mustelidays 1.0
+Sun Dec 14 08:03:21 2025
