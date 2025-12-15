@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/staff_credits.rpy", line 13: Line is indented, but the preceding scrollbars statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    image "gui/staff_icon.png"
+    ^
+
+Ren'Py Version: Ren'Py 8.5.0.25111603
+Mon Dec 15 06:25:35 2025
