@@ -150,6 +150,7 @@ style namebox:
 
 style say_label:
     properties gui.text_properties("name", accent=True)
+    color gui.namebox_colour
     xalign gui.name_xalign
     yalign 0.5
 
@@ -236,6 +237,13 @@ style choice_button_text is default:
 ## The quick menu is displayed in-game to provide easy access to the out-of-game
 ## menus.
 
+transform quick_menus:
+    alpha 0.6 zoom 0.98
+    on hover:
+        linear 0.3 alpha 1.0 zoom 1.0
+    on idle:
+        linear 0.4 alpha 0.6 zoom 0.98
+
 screen quick_menu():
 
     ## Ensure this appears on top of other screens.
@@ -245,18 +253,27 @@ screen quick_menu():
 
         hbox:
             style_prefix "quick"
+            align (0.5, 1.0)
+            spacing -10
 
-            xalign 0.5
-            yalign 1.0
-
-            textbutton _("Back") action Rollback()
-            textbutton _("History") action ShowMenu('history')
-            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Auto") action Preference("auto-forward", "toggle")
-            textbutton _("Save") action ShowMenu('save')
-            textbutton _("Q.Save") action QuickSave()
-            textbutton _("Q.Load") action QuickLoad()
-            textbutton _("Prefs") action ShowMenu('preferences')
+            imagebutton:
+                auto "gui/OptBack_%s.png" action Rollback()
+                at quick_menus
+            imagebutton:
+                auto "gui/OptLog_%s.png" action ShowMenu('history')
+                at quick_menus
+            imagebutton:
+                auto "gui/OptSkip_%s.png" action Skip() alternate Skip(fast=True, confirm=True)
+                at quick_menus
+            imagebutton:
+                auto "gui/OptAuto_%s.png" action Preference("auto-forward", "toggle")
+                at quick_menus
+            imagebutton:
+                auto "gui/OptHide_%s.png" action ShowMenu('save')
+                at quick_menus
+            #textbutton _("Q.Save") action QuickSave()
+            #textbutton _("Q.Load") action QuickLoad()
+            #textbutton _("Prefs") action ShowMenu('preferences')
 
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
@@ -310,6 +327,7 @@ screen navigation():
         textbutton _("Preferences") action ShowMenu("preferences")
 
         if renpy.get_screen("main_menu"):
+
             textbutton _("Gallery") action ShowMenu ("gallery_cgs")
 
         if _in_replay:
