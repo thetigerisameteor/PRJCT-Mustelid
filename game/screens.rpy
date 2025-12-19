@@ -320,7 +320,7 @@ screen navigation():
                 imagebutton auto "gui/button/StartBtn_%s.png" action Start()
                 imagebutton auto "gui/button/LoadBtn_%s.png" action ShowMenu('load')
                 imagebutton auto "gui/button/PrefBtn_%s.png" action ShowMenu('preferences')
-                 #imagebutton auto "gui/button/GalleryBtn_%s.png" action ShowMenu("gallery_cgs")
+                #imagebutton auto "gui/button/GalleryBtn_%s.png" action ShowMenu("gallery_cgs")
                 imagebutton auto "gui/button/ChapterSelectBtn_%s.png" action ShowMenu("gallery_cgs")
 
                 if renpy.get_screen("main_menu"):
