@@ -293,46 +293,24 @@ screen navigation():
         xpos gui.navigation_xpos
         yalign 0.5
 
-        spacing -35
-
-        #if main_menu:
-
-            #textbutton _("Start") action Start()
-
-        #else:
-
-            #textbutton _("History") action ShowMenu("history")
-
-            #textbutton _("Save") action ShowMenu("save")
-
-        #textbutton _("Load") action ShowMenu("load")
-
-        #textbutton _("Preferences") action ShowMenu("preferences")
-
-
+        spacing gui.navigation_spacing
 
         if main_menu:
-            vbox:
-                xpos 5
-                ypos 125
-                spacing -45
 
-                imagebutton auto "gui/button/StartBtn_%s.png" action Start()
-                imagebutton auto "gui/button/LoadBtn_%s.png" action ShowMenu('load')
-                imagebutton auto "gui/button/PrefBtn_%s.png" action ShowMenu('preferences')
-                 #imagebutton auto "gui/button/GalleryBtn_%s.png" action ShowMenu("gallery_cgs")
-                imagebutton auto "gui/button/ChapterSelectBtn_%s.png" action ShowMenu("gallery_cgs")
+            textbutton _("Start") action Start()
 
-                if renpy.get_screen("main_menu"):
-                    imagebutton auto "gui/button/GalleryBtn_%s.png" action ShowMenu ("gallery_cgs")
+        else:
 
-                vbox:
-                    ypos 150
-                    imagebutton auto "gui/button/QuitBtn_%s.png" action Quit(confirm=True)
+            textbutton _("History") action ShowMenu("history")
 
+            textbutton _("Save") action ShowMenu("save")
 
+        textbutton _("Load") action ShowMenu("load")
 
+        textbutton _("Preferences") action ShowMenu("preferences")
 
+        if renpy.get_screen("main_menu"):
+            textbutton _("Gallery") action ShowMenu ("gallery_cgs")
 
         if _in_replay:
 
@@ -342,18 +320,18 @@ screen navigation():
 
             textbutton _("Main Menu") action MainMenu()
 
-        #textbutton _("About") action ShowMenu("about")
+        textbutton _("About") action ShowMenu("about")
 
-        #if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
+        if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
             ## Help isn't necessary or relevant to mobile devices.
-            #textbutton _("Help") action ShowMenu("help")
+            textbutton _("Help") action ShowMenu("help")
 
-        #if renpy.variant("pc"):
+        if renpy.variant("pc"):
 
             ## The quit button is banned on iOS and unnecessary on Android and
             ## Web.
-            #textbutton _("Quit") action Quit(confirm=not main_menu)
+            textbutton _("Quit") action Quit(confirm=not main_menu)
 
 
 style navigation_button is gui_button
@@ -379,7 +357,6 @@ screen main_menu():
     tag menu
 
     add gui.main_menu_background
-
 
     ## This empty frame darkens the main menu.
     frame:
@@ -429,6 +406,7 @@ style main_menu_title:
 style main_menu_version:
     properties gui.text_properties("version")
 
+
 ## Game Menu screen ############################################################
 ##
 ## This lays out the basic common structure of a game menu screen. It's called
@@ -443,7 +421,7 @@ screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
     style_prefix "game_menu"
 
     if main_menu:
-        add gui.game_menu_background
+        add gui.main_menu_background
     else:
         add gui.game_menu_background
 

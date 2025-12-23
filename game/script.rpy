@@ -11,45 +11,38 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg backrooms
+    scene bg room
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show mal neutral at left
+    show mal angry at left
         
     with dissolve
 
     # These display lines of dialogue.
 
-    Mal "Bryer, Where the fuck are we?"
+    Mal "You."
 
-    show bry happy at right
-    with dissolve
+    show bry sad at right
 
-    Bry "Dude, don't worry. about it. This is the place we're staying in for the night."
-    
-    Bry "We're saving around..."
 
-    "I check my notepad, and take out my pen to direct my eyes towards all of the expenses made for the month."
+    with vpunch
 
-    Bry "Thirty dollars!"
+    Bry "WHAT?"
 
-    
+    show mal angry 
 
-    Mal "You're seriously making us stay in the average eastern european household..."
+    Mal "I think you are a f-"
 
-    show mal angry
-
-    show bry awkward
-
-    extend "for thirty. {w}fucking. {w} dollars?!?!"
+    show bry sadawkward
 
     Bry "..."
 
-    Mal "I hate you. So much."
-    
+    show bry serious
+
+    Mal "I hate you."
     $ persistent.main_menuimage = 3
     # This ends the game.
 

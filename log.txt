@@ -1,33 +1,33 @@
-2025-12-19 23:01:11 UTC
+2025-12-14 22:20:34 UTC
 Windows-10-10.0.19045-SP0
 Ren'Py 8.5.0.25111603
 
-Early init took 196 ms
-Loading error handling took 101 ms
-Loading script took 368 ms
-Loading save slot metadata took 122 ms
+Early init took 88 ms
+Loading error handling took 37 ms
+Loading script took 181 ms
+Loading save slot metadata took 46 ms
 Loading persistent took 0 ms
-Running init code took 221 ms
-Loading analysis data took 13 ms
-Analyze and compile ATL took 7 ms
-Reloading save slot metadata took 43 ms
-Dump and make backups took 158 ms
+Running init code took 74 ms
+Loading analysis data took 6 ms
+Analyze and compile ATL took 1 ms
+Reloading save slot metadata took 17 ms
+Dump and make backups took 88 ms
 Cleaning cache took 0 ms
-Making clean stores took 0 ms
-Initial gc took 121 ms
+Making clean stores took 1 ms
+Initial gc took 56 ms
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 14 ms
-Init translation took 0 ms
+Creating interface object took 3 ms
+Init translation took 1 ms
 Cleaning stores took 0 ms
-Load screen analysis took 80 ms
+Load screen analysis took 31 ms
 Analyze screens took 1 ms
 Save screen analysis took 0 ms
 Save pyanalysis took 0 ms
 Save bytecode took 0 ms
-Running _start took 2 ms
-Interface start took 558 ms
+Running _start took 1 ms
+Interface start took 356 ms
 
 Initializing angle2 renderer:
 primary display bounds: (0, 0, 1366, 768)
@@ -41,39 +41,71 @@ Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
 Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resize event: <Event(65533-VIDEORESIZE h=705, mod=0, size=(1253, 705), w=1253)>
 Resetting cache.
-Early init took 12 ms
-Loading error handling took 35 ms
-Loading script took 672 ms
+Early init took 13 ms
+Loading error handling took 32 ms
+Loading script took 213 ms
 Loading save slot metadata took 28 ms
 Loading persistent took 0 ms
-Running init code took 57 ms
-Loading analysis data took 6 ms
+Running init code took 55 ms
+Loading analysis data took 14 ms
 Analyze and compile ATL took 3 ms
-Reloading save slot metadata took 19 ms
+Reloading save slot metadata took 17 ms
 Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
-Dump and make backups took 95 ms
-Cleaning cache took 1 ms
-Making clean stores took 0 ms
-Initial gc took 106 ms
+Dump and make backups took 92 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 67 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 19 ms
+Save screen analysis took 16 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 1 ms
+Interface start took 347 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 13 ms
+Loading error handling took 34 ms
+Loading script took 212 ms
+Loading save slot metadata took 37 ms
+Loading persistent took 0 ms
+Running init code took 62 ms
+Loading analysis data took 15 ms
+Analyze and compile ATL took 2 ms
+Reloading save slot metadata took 20 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 103 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 79 ms
 DPI scale factor: 1.000000
 Creating interface object took 1 ms
 Init translation took 0 ms
 Cleaning stores took 0 ms
 Load screen analysis took 1 ms
-Analyze screens took 35 ms
-Save screen analysis took 38 ms
-Save pyanalysis took 9 ms
-Save bytecode took 3 ms
+Analyze screens took 22 ms
+Save screen analysis took 23 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
 Running _start took 2 ms
-Interface start took 530 ms
+Interface start took 591 ms
 
 Initializing angle2 renderer:
 primary display bounds: (0, 0, 1366, 768)
@@ -83,11 +115,1634 @@ Vendor: 'Google Inc.'
 Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
 Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
 Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1253, 681) drawable=(1253, 681)
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
 Maximum texture size: 4096x4096
-Resize event: <Event(65533-VIDEORESIZE h=681, mod=0, size=(1253, 681), w=1253)>
+Resetting cache.
+Early init took 14 ms
+Loading error handling took 36 ms
+Loading script took 218 ms
+Loading save slot metadata took 36 ms
+Loading persistent took 0 ms
+Running init code took 63 ms
+Loading analysis data took 17 ms
+Analyze and compile ATL took 3 ms
+Reloading save slot metadata took 19 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 119 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 311 ms
+DPI scale factor: 1.000000
+Creating interface object took 1 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 39 ms
+Save screen analysis took 62 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 2 ms
+Interface start took 505 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 14 ms
+Loading error handling took 38 ms
+Loading script took 204 ms
+Loading save slot metadata took 29 ms
+Loading persistent took 1 ms
+Running init code took 55 ms
+Loading analysis data took 15 ms
+Analyze and compile ATL took 2 ms
+Reloading save slot metadata took 17 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 99 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 95 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 24 ms
+Save screen analysis took 17 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 1 ms
+Interface start took 332 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 13 ms
+Loading error handling took 36 ms
+Loading script took 189 ms
+Loading save slot metadata took 33 ms
+Loading persistent took 0 ms
+Running init code took 56 ms
+Loading analysis data took 15 ms
+Analyze and compile ATL took 2 ms
+Reloading save slot metadata took 16 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 99 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 146 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 1 ms
+Analyze screens took 29 ms
+Save screen analysis took 48 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 2 ms
+Interface start took 514 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 14 ms
+Loading error handling took 36 ms
+Loading script took 517 ms
+Loading save slot metadata took 59 ms
+Loading persistent took 0 ms
+Running init code took 87 ms
+Loading analysis data took 30 ms
+Analyze and compile ATL took 3 ms
+Reloading save slot metadata took 24 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 139 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 110 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 246 ms
+Save screen analysis took 72 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 2 ms
+Interface start took 440 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 17 ms
+Loading error handling took 46 ms
+Loading script took 557 ms
+Loading save slot metadata took 39 ms
+Loading persistent took 0 ms
+Running init code took 88 ms
+Loading analysis data took 21 ms
+Analyze and compile ATL took 3 ms
+Reloading save slot metadata took 23 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 97 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 83 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 23 ms
+Save screen analysis took 21 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 1 ms
+Interface start took 356 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 17 ms
+Loading error handling took 37 ms
+Loading script took 216 ms
+Loading save slot metadata took 34 ms
+Loading persistent took 0 ms
+
+File "game/staff_credits.rpy", line 13: Line is indented, but the preceding scrollbars statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    image "gui/staff_icon.png"
+    ^
+DPI scale factor: 1.000000
+Interface start took 151 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 12 ms
+Loading error handling took 35 ms
+Loading script took 220 ms
+Loading save slot metadata took 37 ms
+Loading persistent took 0 ms
+Running init code took 66 ms
+Loading analysis data took 19 ms
+Analyze and compile ATL took 3 ms
+Reloading save slot metadata took 18 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 103 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 90 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 27 ms
+Save screen analysis took 59 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 2 ms
+Interface start took 653 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(683, 705) drawable=(683, 705)
+Maximum texture size: 4096x4096
+Resize event: <Event(65533-VIDEORESIZE h=705, mod=0, size=(683, 705), w=683)>
+Screen sizes: virtual=(1920, 1080) physical=(681, 696) drawable=(681, 696)
+Maximum texture size: 4096x4096
+Resize event: <Event(65533-VIDEORESIZE h=696, mod=0, size=(681, 696), w=681)>
+Screen sizes: virtual=(1920, 1080) physical=(679, 696) drawable=(679, 696)
+Maximum texture size: 4096x4096
+Resize event: <Event(65533-VIDEORESIZE h=696, mod=0, size=(679, 696), w=679)>
+Resetting cache.
+Early init took 12 ms
+Loading error handling took 36 ms
+Loading script took 209 ms
+Loading save slot metadata took 40 ms
+Loading persistent took 0 ms
+Running init code took 105 ms
+Loading analysis data took 69 ms
+Analyze and compile ATL took 5 ms
+Reloading save slot metadata took 69 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 224 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 152 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 2 ms
+Analyze screens took 34 ms
+Save screen analysis took 24 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 2 ms
+Interface start took 358 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(679, 382) drawable=(679, 382)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 14 ms
+Loading error handling took 34 ms
+Loading script took 186 ms
+Loading save slot metadata took 32 ms
+Loading persistent took 1 ms
+Running init code took 56 ms
+Loading analysis data took 17 ms
+Analyze and compile ATL took 1 ms
+Reloading save slot metadata took 17 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 89 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 79 ms
+DPI scale factor: 1.000000
+Creating interface object took 1 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 1 ms
+Analyze screens took 18 ms
+Save screen analysis took 17 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 2 ms
+Interface start took 334 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(679, 382) drawable=(679, 382)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 12 ms
+Loading error handling took 31 ms
+Loading script took 172 ms
+Loading save slot metadata took 27 ms
+Loading persistent took 0 ms
+Running init code took 58 ms
+Loading analysis data took 18 ms
+Analyze and compile ATL took 2 ms
+Reloading save slot metadata took 17 ms
+Dump and make backups took 90 ms
+Cleaning cache took 1 ms
+Making clean stores took 0 ms
+Initial gc took 74 ms
+DPI scale factor: 1.000000
+Creating interface object took 1 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 33 ms
+Analyze screens took 1 ms
+Save screen analysis took 0 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 1 ms
+Interface start took 337 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(679, 382) drawable=(679, 382)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 12 ms
+Loading error handling took 33 ms
+Loading script took 193 ms
+Loading save slot metadata took 32 ms
+Loading persistent took 0 ms
+Running init code took 63 ms
+Loading analysis data took 18 ms
+Analyze and compile ATL took 3 ms
+Reloading save slot metadata took 17 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 97 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 85 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 19 ms
+Save screen analysis took 19 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 2 ms
+Interface start took 679 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(679, 382) drawable=(679, 382)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 16 ms
+Loading error handling took 38 ms
+Loading script took 565 ms
+Loading save slot metadata took 56 ms
+Loading persistent took 0 ms
+Running init code took 101 ms
+Loading analysis data took 25 ms
+Analyze and compile ATL took 4 ms
+Reloading save slot metadata took 34 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 117 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 79 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 1 ms
+Load screen analysis took 0 ms
+Analyze screens took 20 ms
+Save screen analysis took 18 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 2 ms
+Interface start took 395 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(679, 382) drawable=(679, 382)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 14 ms
+Loading error handling took 34 ms
+Loading script took 189 ms
+Loading save slot metadata took 35 ms
+Loading persistent took 0 ms
+Running init code took 63 ms
+Loading analysis data took 18 ms
+Analyze and compile ATL took 3 ms
+Reloading save slot metadata took 17 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 99 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 82 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 1 ms
+Analyze screens took 21 ms
+Save screen analysis took 19 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 1 ms
+Interface start took 681 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(679, 382) drawable=(679, 382)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 13 ms
+Loading error handling took 35 ms
+Loading script took 222 ms
+Loading save slot metadata took 32 ms
+Loading persistent took 0 ms
+Running init code took 73 ms
+Loading analysis data took 19 ms
+Analyze and compile ATL took 3 ms
+Reloading save slot metadata took 20 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 222 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 177 ms
+DPI scale factor: 1.000000
+Creating interface object took 1 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 1 ms
+Analyze screens took 32 ms
+Save screen analysis took 26 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 2 ms
+Interface start took 436 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(679, 382) drawable=(679, 382)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 13 ms
+Loading error handling took 37 ms
+Loading script took 214 ms
+Loading save slot metadata took 32 ms
+Loading persistent took 0 ms
+Running init code took 64 ms
+Loading analysis data took 17 ms
+Analyze and compile ATL took 2 ms
+Reloading save slot metadata took 18 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 113 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 207 ms
+DPI scale factor: 1.000000
+Creating interface object took 2 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 1 ms
+Analyze screens took 55 ms
+Save screen analysis took 70 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 4 ms
+Interface start took 544 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(679, 382) drawable=(679, 382)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 11 ms
+Loading error handling took 32 ms
+Loading script took 205 ms
+Loading save slot metadata took 35 ms
+Loading persistent took 0 ms
+Running init code took 70 ms
+Loading analysis data took 20 ms
+Analyze and compile ATL took 3 ms
+Reloading save slot metadata took 23 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 269 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 196 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 1 ms
+Analyze screens took 29 ms
+Save screen analysis took 33 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 2 ms
+Interface start took 622 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(679, 382) drawable=(679, 382)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 12 ms
+Loading error handling took 32 ms
+Loading script took 186 ms
+Loading save slot metadata took 29 ms
+Loading persistent took 0 ms
+Running init code took 58 ms
+Loading analysis data took 16 ms
+Analyze and compile ATL took 2 ms
+Reloading save slot metadata took 18 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 197 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 237 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 1 ms
+Analyze screens took 27 ms
+Save screen analysis took 26 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 2 ms
+Interface start took 459 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(679, 382) drawable=(679, 382)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 13 ms
+Loading error handling took 31 ms
+Loading script took 207 ms
+Loading save slot metadata took 36 ms
+Loading persistent took 0 ms
+Running init code took 75 ms
+Loading analysis data took 20 ms
+Analyze and compile ATL took 3 ms
+Reloading save slot metadata took 23 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 394 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 142 ms
+DPI scale factor: 1.000000
+Creating interface object took 1 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 1 ms
+Analyze screens took 59 ms
+Save screen analysis took 38 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 2 ms
+Interface start took 603 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(679, 382) drawable=(679, 382)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 11 ms
+Loading error handling took 32 ms
+Loading script took 176 ms
+Loading save slot metadata took 36 ms
+Loading persistent took 1 ms
+Running init code took 63 ms
+Loading analysis data took 20 ms
+Analyze and compile ATL took 4 ms
+Reloading save slot metadata took 18 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 90 ms
+Cleaning cache took 0 ms
+Making clean stores took 2 ms
+Initial gc took 80 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 1 ms
+Analyze screens took 20 ms
+Save screen analysis took 18 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 2 ms
+Interface start took 685 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(679, 382) drawable=(679, 382)
+Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
 Maximum texture size: 4096x4096
 Resize event: <Event(65533-VIDEORESIZE h=705, mod=0, size=(1366, 705), w=1366)>
+Resetting cache.
+Early init took 11 ms
+Loading error handling took 40 ms
+Loading script took 240 ms
+Loading save slot metadata took 42 ms
+Loading persistent took 0 ms
+Running init code took 70 ms
+Loading analysis data took 19 ms
+Analyze and compile ATL took 2 ms
+Reloading save slot metadata took 24 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 103 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 117 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 27 ms
+Save screen analysis took 23 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 2 ms
+Interface start took 814 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 15 ms
+Loading error handling took 36 ms
+Loading script took 221 ms
+Loading save slot metadata took 45 ms
+Loading persistent took 0 ms
+Running init code took 126 ms
+Loading analysis data took 27 ms
+Analyze and compile ATL took 3 ms
+Reloading save slot metadata took 32 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 193 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 146 ms
+DPI scale factor: 1.000000
+Creating interface object took 1 ms
+Init translation took 0 ms
+Cleaning stores took 1 ms
+Load screen analysis took 0 ms
+Analyze screens took 32 ms
+Save screen analysis took 24 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 2 ms
+Interface start took 421 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 14 ms
+Loading error handling took 42 ms
+Loading script took 187 ms
+Loading save slot metadata took 29 ms
+Loading persistent took 0 ms
+Running init code took 60 ms
+Loading analysis data took 18 ms
+Analyze and compile ATL took 1 ms
+Reloading save slot metadata took 16 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 94 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 91 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 1 ms
+Analyze screens took 25 ms
+Save screen analysis took 30 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 2 ms
+Interface start took 601 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 20 ms
+Loading error handling took 41 ms
+Loading script took 235 ms
+Loading save slot metadata took 35 ms
+Loading persistent took 0 ms
+Running init code took 106 ms
+Loading analysis data took 50 ms
+Analyze and compile ATL took 9 ms
+Reloading save slot metadata took 115 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 306 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 184 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 1 ms
+Cleaning stores took 1 ms
+Load screen analysis took 3 ms
+Analyze screens took 36 ms
+Save screen analysis took 35 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 2 ms
+Interface start took 548 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(681, 696) drawable=(681, 696)
+Maximum texture size: 4096x4096
+Resize event: <Event(65533-VIDEORESIZE h=696, mod=0, size=(681, 696), w=681)>
+Resetting cache.
+Early init took 12 ms
+Loading error handling took 33 ms
+Loading script took 186 ms
+Loading save slot metadata took 29 ms
+Loading persistent took 0 ms
+Running init code took 66 ms
+Loading analysis data took 22 ms
+Analyze and compile ATL took 3 ms
+Reloading save slot metadata took 18 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 337 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 137 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 1 ms
+Analyze screens took 30 ms
+Save screen analysis took 21 ms
+Save pyanalysis took 0 ms
+Save bytecode took 2 ms
+Running _start took 2 ms
+Interface start took 414 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(681, 383) drawable=(681, 383)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(681, 696) drawable=(681, 696)
+Maximum texture size: 4096x4096
+Resize event: <Event(65533-VIDEORESIZE h=696, mod=0, size=(681, 696), w=681)>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resize event: <Event(65533-VIDEORESIZE h=705, mod=0, size=(1366, 705), w=1366)>
+Screen sizes: virtual=(1920, 1080) physical=(681, 696) drawable=(681, 696)
+Maximum texture size: 4096x4096
+Resize event: <Event(65533-VIDEORESIZE h=696, mod=0, size=(681, 696), w=681)>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resize event: <Event(65533-VIDEORESIZE h=705, mod=0, size=(1366, 705), w=1366)>
+Resetting cache.
+Early init took 17 ms
+Loading error handling took 25 ms
+Loading script took 227 ms
+Loading save slot metadata took 37 ms
+Loading persistent took 0 ms
+Running init code took 86 ms
+Loading analysis data took 8 ms
+Analyze and compile ATL took 3 ms
+Reloading save slot metadata took 20 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 129 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 275 ms
+DPI scale factor: 1.000000
+Creating interface object took 1 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 1 ms
+Analyze screens took 90 ms
+Save screen analysis took 76 ms
+Save pyanalysis took 0 ms
+Save bytecode took 2 ms
+Running _start took 2 ms
+Interface start took 668 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 14 ms
+Loading error handling took 23 ms
+Loading script took 241 ms
+Loading save slot metadata took 36 ms
+Loading persistent took 0 ms
+Running init code took 71 ms
+Loading analysis data took 8 ms
+Analyze and compile ATL took 3 ms
+Reloading save slot metadata took 20 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 112 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 125 ms
+DPI scale factor: 1.000000
+Creating interface object took 3 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 1 ms
+Analyze screens took 118 ms
+Save screen analysis took 31 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 3 ms
+Interface start took 705 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(681, 696) drawable=(681, 696)
+Maximum texture size: 4096x4096
+Resize event: <Event(65533-VIDEORESIZE h=696, mod=0, size=(681, 696), w=681)>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resize event: <Event(65533-VIDEORESIZE h=705, mod=0, size=(1366, 705), w=1366)>
+Resetting cache.
+Early init took 15 ms
+Loading error handling took 24 ms
+Loading script took 699 ms
+Loading save slot metadata took 132 ms
+Loading persistent took 0 ms
+Running init code took 221 ms
+Loading analysis data took 17 ms
+Analyze and compile ATL took 7 ms
+Reloading save slot metadata took 49 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 296 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 159 ms
+DPI scale factor: 1.000000
+Creating interface object took 1 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 1 ms
+Analyze screens took 28 ms
+Save screen analysis took 25 ms
+Save pyanalysis took 1 ms
+Save bytecode took 1 ms
+Running _start took 3 ms
+Interface start took 526 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 14 ms
+Loading error handling took 28 ms
+Loading script took 222 ms
+Loading save slot metadata took 31 ms
+Loading persistent took 1 ms
+Running init code took 70 ms
+Loading analysis data took 6 ms
+Analyze and compile ATL took 3 ms
+Reloading save slot metadata took 20 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 112 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 91 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 20 ms
+Save screen analysis took 19 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 3 ms
+Interface start took 539 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 15 ms
+Loading error handling took 24 ms
+Loading script took 205 ms
+Loading save slot metadata took 32 ms
+Loading persistent took 0 ms
+Running init code took 62 ms
+Loading analysis data took 6 ms
+Analyze and compile ATL took 3 ms
+Reloading save slot metadata took 17 ms
+Dump and make backups took 92 ms
+Cleaning cache took 1 ms
+Making clean stores took 0 ms
+Initial gc took 91 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 36 ms
+Analyze screens took 2 ms
+Save screen analysis took 0 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 1 ms
+Interface start took 397 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 13 ms
+Loading error handling took 31 ms
+Loading script took 255 ms
+Loading save slot metadata took 42 ms
+Loading persistent took 0 ms
+Running init code took 198 ms
+Loading analysis data took 10 ms
+Analyze and compile ATL took 3 ms
+Reloading save slot metadata took 31 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 209 ms
+Cleaning cache took 1 ms
+Making clean stores took 0 ms
+Initial gc took 164 ms
+DPI scale factor: 1.000000
+Creating interface object took 2 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 2 ms
+Analyze screens took 61 ms
+Save screen analysis took 33 ms
+Save pyanalysis took 0 ms
+Save bytecode took 2 ms
+Running _start took 2 ms
+Interface start took 996 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 12 ms
+Loading error handling took 22 ms
+Loading script took 568 ms
+Loading save slot metadata took 53 ms
+Loading persistent took 0 ms
+Running init code took 122 ms
+Loading analysis data took 12 ms
+Analyze and compile ATL took 4 ms
+Reloading save slot metadata took 27 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 108 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 97 ms
+DPI scale factor: 1.000000
+Creating interface object took 1 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 1 ms
+Analyze screens took 22 ms
+Save screen analysis took 21 ms
+Save pyanalysis took 1 ms
+Save bytecode took 0 ms
+Running _start took 1 ms
+Interface start took 467 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 15 ms
+Loading error handling took 29 ms
+Loading script took 277 ms
+Loading save slot metadata took 60 ms
+Loading persistent took 0 ms
+Running init code took 289 ms
+Loading analysis data took 10 ms
+Analyze and compile ATL took 4 ms
+Reloading save slot metadata took 52 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 176 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 146 ms
+DPI scale factor: 1.000000
+Creating interface object took 1 ms
+Init translation took 2 ms
+Cleaning stores took 0 ms
+Load screen analysis took 1 ms
+Analyze screens took 26 ms
+Save screen analysis took 24 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 2 ms
+Interface start took 419 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 12 ms
+Loading error handling took 21 ms
+Loading script took 314 ms
+Loading save slot metadata took 70 ms
+Loading persistent took 0 ms
+Running init code took 128 ms
+Loading analysis data took 10 ms
+Analyze and compile ATL took 7 ms
+Reloading save slot metadata took 33 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 139 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 355 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 1 ms
+Analyze screens took 58 ms
+Save screen analysis took 34 ms
+Save pyanalysis took 0 ms
+Save bytecode took 1 ms
+Running _start took 1 ms
+Interface start took 515 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 17 ms
+Loading error handling took 27 ms
+Loading script took 270 ms
+Loading save slot metadata took 46 ms
+Loading persistent took 1 ms
+Running init code took 76 ms
+Loading analysis data took 6 ms
+Analyze and compile ATL took 3 ms
+Reloading save slot metadata took 29 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 267 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 919 ms
+DPI scale factor: 1.000000
+Creating interface object took 1 ms
+Init translation took 0 ms
+Cleaning stores took 1 ms
+Load screen analysis took 9 ms
+Analyze screens took 87 ms
+Save screen analysis took 94 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 3 ms
+Interface start took 1397 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
+    python hide:
+  File "renpy/ast.py", line 1187, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/python.py", line 1273, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in <module>
+    python hide:
+  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in _execute_python_hide
+    ui.interact()
+    ~~~~~~~~~~~^^
+  File "renpy/ui.py", line 304, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/display/core.py", line 2117, in interact
+    repeat, rv = self.interact_core(
+                 ~~~~~~~~~~~~~~~~~~^
+        preloads=preloads,
+        ^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "renpy/display/core.py", line 2788, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/display/core.py", line 1279, in draw_screen
+    surftree = renpy.display.render.render_screen(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        root_widget,
+        ^^^^^^^^^^^^
+        renpy.config.screen_width,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        renpy.config.screen_height,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "renpy/display/render.pyx", line 494, in renpy.display.render.render_screen
+  File "renpy/display/render.pyx", line 267, in renpy.display.render.render
+  File "renpy/display/layout.py", line 896, in render
+    surf = render(child, width, height, cst, cat)
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/display/render.pyx", line 170, in renpy.display.render.render
+  File "renpy/display/render.pyx", line 267, in renpy.display.render.render
+  File "renpy/display/layout.py", line 896, in render
+    surf = render(child, width, height, cst, cat)
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/display/render.pyx", line 170, in renpy.display.render.render
+  File "renpy/display/render.pyx", line 267, in renpy.display.render.render
+  File "renpy/display/layout.py", line 896, in render
+    surf = render(child, width, height, cst, cat)
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/display/render.pyx", line 170, in renpy.display.render.render
+  File "renpy/display/render.pyx", line 267, in renpy.display.render.render
+  File "renpy/display/screen.py", line 767, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/display/render.pyx", line 170, in renpy.display.render.render
+  File "renpy/display/render.pyx", line 267, in renpy.display.render.render
+  File "renpy/display/layout.py", line 896, in render
+    surf = render(child, width, height, cst, cat)
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/display/render.pyx", line 170, in renpy.display.render.render
+  File "renpy/display/render.pyx", line 267, in renpy.display.render.render
+  File "renpy/display/layout.py", line 1955, in render
+    cwidth, cheight = sizeit("c", width, height, 0, 0)
+                      ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/display/layout.py", line 1952, in sizeit
+    rend = renpy.display.render.render_for_size(pos_d[pos], width, height, st, at)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/display/render.pyx", line 320, in renpy.display.render.render_for_size
+  File "renpy/display/render.pyx", line 267, in renpy.display.render.render
+  File "renpy/display/viewport.py", line 283, in render
+    surf = renpy.display.render.render(self.child, child_width, child_height, st, at)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/display/render.pyx", line 170, in renpy.display.render.render
+  File "renpy/display/render.pyx", line 267, in renpy.display.render.render
+  File "renpy/display/layout.py", line 1159, in render
+    surf = render(d, width - x, rh, cst, cat)
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/display/render.pyx", line 170, in renpy.display.render.render
+  File "renpy/display/render.pyx", line 267, in renpy.display.render.render
+  File "renpy/display/layout.py", line 1159, in render
+    surf = render(d, width - x, rh, cst, cat)
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/display/render.pyx", line 170, in renpy.display.render.render
+  File "renpy/display/render.pyx", line 267, in renpy.display.render.render
+  File "renpy/text/text.py", line 2733, in render
+    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
+                     ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/text/text.py", line 820, in __init__
+    seg_glyphs, rtl = self.glyphs_paragraph(p, order)
+                      ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "renpy/text/text.py", line 1673, in glyphs_paragraph
+    rv.append((ts, ts.glyphs(s[offset:], self, l)))
+                   ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^  
+  File "renpy/text/text.py", line 357, in glyphs
+    fo = font.get_font(
+         ~~~~~~~~~~~~~^
+        self.font,
+        ^^^^^^^^^^
+    ...<11 lines>...
+        self.features,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "renpy/text/font.py", line 758, in get_font
+    face = load_face(fn, shaper)
+           ~~~~~~~~~^^^^^^^^^^^^
+  File "renpy/text/font.py", line 676, in load_face
+    raise Exception("Could not find font {0!r}.".format(orig_fn))
+Exception: Could not find font 'FeDPrm2.tff'.
+
+While running game code:
+  File "renpy/display/render.pyx", line 494, in renpy.display.render.render_screen
+  File "renpy/display/render.pyx", line 267, in renpy.display.render.render
+  File "renpy/display/render.pyx", line 170, in renpy.display.render.render
+  File "renpy/display/render.pyx", line 267, in renpy.display.render.render
+  File "renpy/display/render.pyx", line 170, in renpy.display.render.render
+  File "renpy/display/render.pyx", line 267, in renpy.display.render.render
+  File "renpy/display/render.pyx", line 170, in renpy.display.render.render
+  File "renpy/display/render.pyx", line 267, in renpy.display.render.render
+  File "renpy/display/render.pyx", line 170, in renpy.display.render.render
+  File "renpy/display/render.pyx", line 267, in renpy.display.render.render
+  File "renpy/display/render.pyx", line 170, in renpy.display.render.render
+  File "renpy/display/render.pyx", line 267, in renpy.display.render.render
+  File "renpy/display/render.pyx", line 320, in renpy.display.render.render_for_size
+  File "renpy/display/render.pyx", line 267, in renpy.display.render.render
+  File "renpy/display/render.pyx", line 170, in renpy.display.render.render
+  File "renpy/display/render.pyx", line 267, in renpy.display.render.render
+  File "renpy/display/render.pyx", line 170, in renpy.display.render.render
+  File "renpy/display/render.pyx", line 267, in renpy.display.render.render
+  File "renpy/display/render.pyx", line 170, in renpy.display.render.render
+  File "renpy/display/render.pyx", line 267, in renpy.display.render.render
+Exception: Could not find font 'FeDPrm2.tff'.
+Resetting cache.
+Early init took 16 ms
+Loading error handling took 29 ms
+Loading script took 291 ms
+Loading save slot metadata took 46 ms
+Loading persistent took 1 ms
+Running init code took 131 ms
+Loading analysis data took 11 ms
+Analyze and compile ATL took 4 ms
+Reloading save slot metadata took 32 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 253 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 206 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 1 ms
+Analyze screens took 40 ms
+Save screen analysis took 54 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 3 ms
+Interface start took 730 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 18 ms
+Loading error handling took 28 ms
+Loading script took 680 ms
+Loading save slot metadata took 49 ms
+Loading persistent took 0 ms
+Running init code took 88 ms
+Loading analysis data took 7 ms
+Analyze and compile ATL took 3 ms
+Reloading save slot metadata took 28 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 134 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 103 ms
+DPI scale factor: 1.000000
+Creating interface object took 1 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 1 ms
+Analyze screens took 17 ms
+Save screen analysis took 18 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 1 ms
+Interface start took 354 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 15 ms
+Loading error handling took 25 ms
+Loading script took 236 ms
+Loading save slot metadata took 46 ms
+Loading persistent took 0 ms
+Running init code took 83 ms
+Loading analysis data took 7 ms
+Analyze and compile ATL took 2 ms
+Reloading save slot metadata took 27 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 124 ms
+Cleaning cache took 1 ms
+Making clean stores took 1 ms
+Initial gc took 309 ms
+DPI scale factor: 1.000000
+Creating interface object took 1 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 1 ms
+Analyze screens took 55 ms
+Save screen analysis took 36 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 2 ms
+Interface start took 546 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 22 ms
+Loading error handling took 91 ms
+Loading script took 342 ms
+Loading save slot metadata took 81 ms
+Loading persistent took 1 ms
+Running init code took 96 ms
+Loading analysis data took 6 ms
+Analyze and compile ATL took 2 ms
+Reloading save slot metadata took 18 ms
+Backing up script files to 'C:\\Users\\Rojan\\AppData\\Roaming/RenPy/backups\\PRJCT-Mustelid':
+Dump and make backups took 96 ms
+Cleaning cache took 1 ms
+Making clean stores took 1 ms
+Initial gc took 112 ms
+DPI scale factor: 1.000000
+Creating interface object took 1 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 1 ms
+Analyze screens took 19 ms
+Save screen analysis took 18 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 2 ms
+Interface start took 1032 ms
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD Radeon R5 M230 Direct3D11 vs_5_0 ps_5_0)'
+Version: 'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1366, 'current_h': 768, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Cleaning stores took 1 ms
+Load screen analysis took 44 ms
+Analyze screens took 0 ms
+Running _start took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 89 ms
+Analyze screens took 1 ms
+Running _start took 2 ms
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
