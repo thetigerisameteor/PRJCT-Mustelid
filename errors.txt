@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 253: 'Skip' is not a keyword argument or valid child of the imagebutton statement.
-    imagebutton auto "gui/OptSkip_%s.png" Skip() alternate Skip(fast=True, confirm=True)
-                                              ^
+File "game/staff_credits.rpy", line 13: Line is indented, but the preceding scrollbars statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    image "gui/staff_icon.png"
+    ^
 
 Ren'Py Version: Ren'Py 8.5.0.25111603
-Thu Dec 18 05:53:04 2025
+Mon Dec 15 06:25:35 2025
